@@ -1,0 +1,3 @@
+This is a script for scraping data on popular baby names from the Social Security Administration's website (http://www.ssa.gov/OACT/babynames/index.html).
+
+It can be used to get nationwide data on the top 1,000 names for each sex in each year since 1880, and state-by-state data on the top 100 names for each sex in each year since 1960.
