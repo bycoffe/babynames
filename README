@@ -3,3 +3,22 @@ This is a script for scraping data on popular baby names from the Social Securit
 It can be used to get nationwide data on the top 1,000 names for each sex in each year since 1880, and state-by-state data on the top 100 names for each sex in each year since 1960.
 
 Requires: Python >= 2.6
+
+Usage
+------------------------------
+
+Get national data, sent to standard output in CSV format:
+
+    $ python babynames.py
+
+Get national data, saving it to a file in CSV format:
+
+    $ python babynames.py -f names.csv
+
+Get state-by-state data, for all states
+
+    $ python babynames.py -s All
+
+Get state data for Virginia, Maryland and Pennsylvania, saving it to a file:
+
+    $ python babynames.py -s VA,PA,MD -f mystates.csv
