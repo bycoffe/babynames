@@ -131,10 +131,11 @@ if __name__ == '__main__':
 
     options, args = parser.parse_args()
 
-    if options.states.lower() == 'all':
-        states = ALLSTATES
-    elif options.states is not None:
-        states = options.states.split(',')
+    if options.states:
+        if options.states.lower() == 'all':
+            states = ALLSTATES
+        else:
+            states = options.states.split(',')
     else:
         states = None
 
