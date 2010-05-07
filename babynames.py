@@ -18,7 +18,7 @@ class BabyNameScraper(object):
         if states:
             self.years = range(1960, 2009)
         else:
-            self.years = range(1880, 2009)
+            self.years = range(1880, 2010)
 
         self.states = states or [None,]
         self.filename = filename
